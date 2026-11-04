@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+.container header {
+  display: flex;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container header nav a {
+  color: #333;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.container header nav a:hover {
+  color: rgb(136, 127, 127);
+  text-decoration: underline;
+}
+.container .banner {
+  display: flex;
+}
+.container .banner .principal {
+  width: 700px;
+  height: 400px;
+  border-radius: 10px;
+  margin-right: 35px;
+}
+.container .banner .dupla {
+  display: flex;
+  gap: 35px;
+  flex-direction: column;
+}
+.container .banner .semi {
+  width: 250px;
+  height: 180px;
+  border-radius: 10px;
+}
+.container .scroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22px;
+  gap: 6px;
+}
+.container .scroll .ponto {
+  background-color: rgb(196, 190, 190);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.container .scroll .pontoPrincipal {
+  background-color: rgb(107, 99, 99);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.container .promocao {
+  background-color: rgb(235, 232, 232);
+  display: flex;
+  width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .promocao .descricao h1 {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.container .promocao .descricao p {
+  color: rgb(107, 99, 99);
+  margin-top: 9px;
+}
+.container .promocao button {
+  height: 35px;
+  width: 120px;
+  border: none;
+  background-color: #000;
+  color: white;
+  font-weight: 700;
+}
+.container .promocao button:hover {
+  background-color: rgb(136, 127, 127);
+}
+.container .produtos {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: auto;
+  margin-top: 60px;
+}
+.container .produtos .opcao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .produtos .opcao h1 {
+  font-size: 25px;
+}
+.container .produtos .opcao p {
+  text-decoration: underline;
+}
+.container .produtos .opcao p:hover {
+  color: rgb(136, 127, 127);
+  text-decoration: underline;
+}
+.container .produtos .catalogo {
+  display: flex;
+  gap: 20px;
+}
+.container .produtos .catalogo .card {
+  display: flex;
+  flex-direction: column;
+}
+.container .produtos .catalogo .card img {
+  width: 185px;
+}
+.container .produtos .catalogo .card h1 {
+  font-size: 15px;
+  max-width: 110px;
+}
+.container .produtos .catalogo .card p {
+  font-size: 12px;
+}
+.container .produtos .catalogo .card .preco {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .bannerTenis img {
+  width: 1000px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
